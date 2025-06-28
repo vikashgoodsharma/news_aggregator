@@ -1,12 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I've used REACT+VITE setup to create this project
 
-Currently, two official plugins are available:
+# setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. npm install ----> to install the dependencies
+2. npm run dev ----> to run the project
 
-## Expanding the ESLint configuration
+# News API Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. News API
+2. Gaurdian
+3. NYT
+
+Note: keys for all the three News sources are in constants.js file
+
+# Structure
+
+1. Container folder in src contains all the pages. i.e. I've created base.jsx file for the base page
+2. Components folder in src contains all the components. i.e. Article Card.
+3. Approuter file contains the Routing logic that is separate from app.jsx for better scalablity
