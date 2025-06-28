@@ -1,0 +1,18 @@
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .meta {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 10px;
+  }

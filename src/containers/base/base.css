@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+  }
+  
+  .app {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .controls input,
+  .controls select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .articles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  
+  /* Responsive design */
+  @media (min-width: 600px) {
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+  }
+  
